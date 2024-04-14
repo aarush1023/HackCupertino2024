@@ -26,17 +26,12 @@ function App() {
        <div className="Body" style={{ width: '100%' }}>
          <div style={{ padding: "40px", marginLeft: '100px', marginTop: '20vh', width: '80vh', backgroundColor: "#fff0db", borderWidth: '3px', float: 'left', display: 'inline', width: '40%', borderRadius: '25px' }}>
            <p className="main text" style={{ fontSize: '40px', fontWeight: '300', fontFamily: 'arial', marginTop: '0px' }}>
-             Video Calls for those with Hearing Dissabilities
+            Real-time translation with those you love
            </p>
            <p className="sub text" style={{ marginTop: "0vh", fontSize: '20px', fontWeight: '300', fontFamily: 'arial', }}>
-             Real-time translation to communicate with those you love
+             ASL translation to help the those with hearing disabilities communicate.
            </p>
-           <div className="Buttons" style={{ marginTop: "20px", zIndex: '-1' }}>
-             <div clasName="main_button_rectanlge">
-               <a href="/new-meeting" className="button-51" role="button">New Meeting</a>
-               <button className="button-51" style={{ paddingRight: "50px" }} role="button">Enter a code</button>
-             </div>
-           </div>
+           
          </div>
        </div>
        <div style={{ float: 'left', display: 'inline', width: '60%' }}>
@@ -89,16 +84,18 @@ function App() {
        <hr style={{ marginTop: '100px', color: '#d3d3d3', width: '75%' }} />
        <div className="Body" style={{ width: '100%' }}>
          <div style={{ padding: "40px", marginLeft: '700px', marginTop: '20vh', width: '80vh', backgroundColor: "#fff0db", borderWidth: '3px', float: 'left', display: 'inline', width: '40%', borderRadius: '25px' }}>
-           <p className="main text" style={{ fontSize: '40px', fontWeight: '300', fontFamily: 'arial', marginTop: '0px' }}>
+           <p className="main text" style={{ fontSize: '40px', fontWeight: '300', fontFamily: 'arial', marginTop: '0px', textAlign:'right'}}>
              About us
            </p>
+
+              <p style = {{textAlign:'right'}}>We are a group of 4 high school friends who all have a love for computers and coding. Our shared love for computers brought us together to join this hackathon to expand our knowldge on Artificial Inteligence and improve our programming skills.</p>
            <p className="sub text" style={{ marginTop: "0vh", fontSize: '20px', fontWeight: '300', fontFamily: 'arial', textAlign: 'left' }}>
              {/* Add your about us content here */}
            </p>
          </div>
        </div>
        <div style={{ float: 'left', display: 'inline', width: '60%', marginLeft: '-690px' }}>
-         <img src="https://drive.google.com/file/d/1oFp7K77x6XgNCDZQw3V8GmVZjDCoWjsG/view?usp=sharing" alt="" style={{ width: "800px", height: "250px", marginTop: '-300px', marginRight: '-400px', float: 'right', display: 'inline', width: '49%' }} />
+         <img src="https://static.vecteezy.com/system/resources/thumbnails/024/453/522/small_2x/four-male-friends-laughing-together-discussing-sitting-backward-on-the-ground-simple-line-art-hand-drawn-color-illustration-vector.jpg" alt="" style={{ width: "800px", height: "250px", marginTop: '-300px', marginRight: '-400px', float: 'right', display: 'inline', width: '49%' }} />
        </div>
        <div className="RightBody"></div>
        <div></div>
